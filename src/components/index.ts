@@ -1,0 +1,8 @@
+export { default as Navbar } from './navbar/navbar'
+export { default as Hero } from './hero/hero'
+export { default as About } from './about/about'
+export { default as Services } from './services/services'
+export { default as Portfolio } from './portfolio/portfolio'
+export { default as Testimonial } from './testimonial/testimonial'
+export { default as Business } from './business/business'
+export { default as Footer } from './footer/footer'
