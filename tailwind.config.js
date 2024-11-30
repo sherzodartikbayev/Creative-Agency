@@ -5,7 +5,8 @@ export default {
 		extend: {},
 		colors: {
 			black: '#0e0e0e',
-			white: '#E2E2E2',
+			white: '#fff',
+			lightWhite: '#E2E2E2',
 			gray: '#383638',
 			darkBlue: '#0B0F15',
 		},
@@ -16,7 +17,7 @@ export default {
 		screens: {
 			xs: '480px',
 			ss: '620px',
-			sm: '768px',
+			sm: '769px',
 			md: '1060px',
 			lg: '1200px',
 			xl: '1700px',

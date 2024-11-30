@@ -1,6 +1,6 @@
 const Testimonial = () => {
 	return (
-		<div>Testimonial</div>
+		<section>Testimonial</section>
 	)
 }
 

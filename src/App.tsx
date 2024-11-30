@@ -8,10 +8,11 @@ import {
 	Services,
 	Testimonial,
 } from './components'
+import { styles } from './utils/style'
 
 const App = () => {
 	return (
-		<div className='max-w-[1240px] bg-black'>
+		<div className={`${styles.paddingX} bg-black`}>
 			{/* Navbar */}
 			<Navbar />
 
