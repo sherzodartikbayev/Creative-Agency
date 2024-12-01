@@ -1,13 +1,12 @@
+import { Footer, Navbar } from './components'
 import {
 	About,
 	Business,
-	Footer,
 	Hero,
-	Navbar,
 	Portfolio,
 	Services,
 	Testimonial,
-} from './components'
+} from './sections'
 import { styles } from './utils/style'
 
 const App = () => {

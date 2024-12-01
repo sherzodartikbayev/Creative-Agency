@@ -9,6 +9,7 @@ export default {
 			lightWhite: '#E2E2E2',
 			gray: '#383638',
 			darkBlue: '#0B0F15',
+			blue: '#377DFF80',
 		},
 		fontFamily: {
 			quicksand: ['Quicksand', 'sans-serif'],

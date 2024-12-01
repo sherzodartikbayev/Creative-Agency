@@ -6,5 +6,5 @@ export const styles = {
 	flexStart: 'flex justify-center items-start', // Fixed typo with "d-flex-"
 	title: 'font-nunito font-bold text-[55px] leading-[75px] tracking-[0.3%]',
 	sectionTitle: 'font-quicksand font-semibold text-2xl leading-6 tracking-[1%]',
-	desc: 'font-nunito font-normal text-xl leading-7 tracking-[1%]',
+	desc: 'font-nunito font-normal text-xl leading-7 tracking-[1%] text-gray',
 }
