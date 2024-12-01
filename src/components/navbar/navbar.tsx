@@ -69,7 +69,7 @@ const Navbar = () => {
 				{/* Buttons */}
 				<a
 					href='#'
-					className={`${styles.flexCenter} w-[185px] h-[48px] border-[1px] border-lightWhite rounded-3xl font-quicksand font-semibold text-base leading-6 text-lightWhite hover:bg-lightWhite duration-300 hover:text-black hover:shadow-2xl max-sm:hidden`}
+					className={`${styles.flexCenter} w-[185px] h-[48px] border-[1px] border-lightWhite rounded-3xl font-quicksand font-semibold text-base leading-6 text-lightWhite hover:bg-lightWhite duration-500 hover:text-black hover:shadow-2xl max-sm:hidden`}
 				>
 					Contact Us
 				</a>
