@@ -12,3 +12,10 @@ export { default as star } from "./header/star.svg"
 // About Section Images
 export { default as aboutImg } from "./about/1.png"
 export { default as playCircle } from "./about/play-circle.svg"
+
+// Services Section Images
+export { default as arrowRight } from "./services/arrow-right 1.svg"
+export { default as monitorIcon } from "./services/monitor.svg"
+export { default as settingsIcon } from "./services/settings.svg"
+export { default as penToolIcon } from "./services/pen-tool.svg"
+export { default as tvIcon } from "./services/tv.svg"

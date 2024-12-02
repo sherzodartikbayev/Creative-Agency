@@ -5,6 +5,6 @@ export const styles = {
 	flexBetween: 'flex justify-between items-center',
 	flexStart: 'flex justify-center items-start', // Fixed typo with "d-flex-"
 	title: 'font-nunito font-bold text-[55px] leading-[75px] tracking-[0.3%] text-lightWhite mb-6 max-sm:text-5xl max-ss:text-3xl',
-	sectionTitle: 'font-quicksand font-semibold text-2xl leading-6 tracking-[1%] text-lightWhite',
+	sectionTitle: 'font-quicksand font-semibold text-2xl leading-6 tracking-[1%] text-lightWhite max-xs:text-base',
 	desc: 'font-nunito font-normal text-xl leading-7 tracking-[1%] text-gray max-ss:text-[14px]',
 }

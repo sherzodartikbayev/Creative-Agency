@@ -10,7 +10,6 @@ const Button2 = ({ text }: ButtonProps) => {
 			<img
 				src={playCircle}
 				alt='play circle'
-				className='size-full max-xs:w-[13.33px]'
 			/>
 			{text}
 		</button>

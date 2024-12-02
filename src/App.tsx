@@ -11,7 +11,7 @@ import { styles } from './utils/style'
 
 const App = () => {
 	return (
-		<div className={`${styles.paddingX} bg-black`}>
+		<div className={`${styles.paddingX} bg-black relative`}>
 			{/* Navbar */}
 			<Navbar />
 

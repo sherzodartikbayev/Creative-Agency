@@ -10,7 +10,7 @@ const Navbar = () => {
 	return (
 		<header className='mb-[68px]'>
 			<div
-				className={`${styles.flexBetween} w-full h-[137px] ml-auto mr-auto max-w-[1240px]`}
+				className={`${styles.flexBetween} w-full h-32 mx-auto max-w-[1240px] z-10 top-0 left-0 max-sm:fixed max-sm:px-8 max-xs:h-24 bg-black`}
 			>
 				{/* Logo  */}
 				<div
@@ -47,16 +47,16 @@ const Navbar = () => {
 				<div
 					className={`${styles.flexCenter} ${
 						!toggleNav ? 'hidden' : 'flex'
-					} flex-col bg-gradient p-6 absolute top-28 right-0 left-0 w-full h-[100vh] z-[99] bg-black`}
+					} flex-col bg-gradient p-6 absolute top-24 right-0 left-0 w-full h-[100vh] z-[99] bg-black`}
 				>
 					<ul
-						className={`${styles.flexCenter} flex-col list-none flex-1 gap-2 top-[-50px] relative`}
+						className={`${styles.flexCenter} flex-col list-none flex-1 gap-4 top-[-50px] relative`}
 					>
 						{navbarLinks.map(nav => (
 							<li
 								key={nav.id}
-								className={`text-lightWhite hover:text-white hover:font-semibold text-[2em]
-                  cursor-pointer duration-500`}
+								className={`text-lightWhite hover:text-white hover:font-semibold text-4xl
+                  cursor-pointer duration-500 max-xs:text-2xl`}
 							>
 								<a href={`#${nav.id}`} onClick={() => setToggleNav(false)}>
 									{nav.text}
