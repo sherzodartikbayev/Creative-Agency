@@ -1,5 +1,5 @@
-import { aboutImg } from '../../assets'
-import { Button, Button2 } from '../../components'
+import { aboutImg, playCircle } from '../../assets'
+import { Button } from '../../components'
 import { styles } from '../../utils/style'
 
 const About = () => {
@@ -12,7 +12,9 @@ const About = () => {
 				{/* Title */}
 				<h1 className={`${styles.title} text-center mb-10`}>Our Teammate</h1>
 
-				<div className={`${styles.flexCenter} gap-16 max-lg:flex-wrap  max-sm:flex-wrap-reverse`}>
+				<div
+					className={`${styles.flexCenter} gap-16 max-lg:flex-wrap  max-sm:flex-wrap-reverse`}
+				>
 					<div className='w-[565px]'>
 						<img
 							src={aboutImg}
@@ -37,7 +39,16 @@ const About = () => {
 
 						<div className='flex gap-6 max-lg:justify-center'>
 							<Button text='About Us' />
-							<Button2 text='Our Story' />
+							<button
+								className={`${styles.flexCenter} w-[210px] h-[48px] gap-3 border-[1px] rounded-3xl font-quicksand font-semibold text-base text-lightWhite leading-6 max-xs:w-[150px] max-xs:h-[38px] max-xs:text-[12px]`}
+							>
+								<img
+									src={playCircle}
+									alt='play circle'
+									className='max-xs:w-4'
+								/>
+								About Us
+							</button>
 						</div>
 					</div>
 				</div>

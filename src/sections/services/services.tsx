@@ -37,7 +37,7 @@ const Services = () => {
 					<div className={`${styles.flexCenter} flex-wrap gap-10`}>
 						{servicesCards.map(card => (
 							<div
-								className={`${styles.flexCenter} flex-col w-[262px] h-[269px] rounded-[30px] bg-darkBlue `}
+								className={`${styles.flexCenter} flex-col w-[262px] h-[269px] rounded-[30px] bg-darkBlue cursor-pointer`}
 								key={card.id}
 							>
 								<div

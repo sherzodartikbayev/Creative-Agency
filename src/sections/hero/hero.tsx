@@ -5,7 +5,7 @@ import { styles } from '../../utils/style'
 const Hero = () => {
 	return (
 		<section id='home'>
-			<div className='w-full mx-auto mb-36 max-w-[1240px] pt-24'>
+			<div className='w-full mx-auto mb-36 max-w-[1240px] max-sm:pt-24'>
 				{/* Content Part */}
 				<div className={`${styles.flexCenter} flex-col mb-28`}>
 					<h1 className='text-center text-lightWhite font-nunito font-bold text-6xl leading-[87px] tracking-[1%] mb-6 max-sm:text-5xl max-ss:text-3xl'>
