@@ -21,7 +21,7 @@ const Portfolio = () => {
 					</p>
 				</div>
 
-				<div className={`${styles.flexCenter} flex-wrap gap-[69px] mb-8`}>
+				<div className={`${styles.flexCenter} flex-wrap gap-12 mb-8`}>
 					{portfolioCard.map(card => (
 						<div
 							className='w-[350px] h-[350px] relative max-xs:w-[300px]  max-xs:h-[300px]'

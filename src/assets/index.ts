@@ -25,3 +25,7 @@ export { default as card3 } from './portfolio/3.png'
 
 // Testomonials Section Images
 export { default as userLogo } from './testimonial/user-logo.png'
+
+// Business Section Images
+export { default as img1 } from './business/1.png'
+export { default as img2 } from './business/2.png'
