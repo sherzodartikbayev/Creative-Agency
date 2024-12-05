@@ -4,8 +4,11 @@ import { styles } from '../../utils/style'
 
 const About = () => {
 	return (
-		<section id='about'>
-			<div className='w-full mx-auto mb-36 max-w-[1240px]'>
+		<section
+			id='about'
+			className={`${styles.paddingX}`}
+		>
+			<div className='w-full mx-auto max-w-[1440px] pb-36'>
 				{/* Section Title */}
 				<p className={`${styles.sectionTitle} text-center mb-5`}>About Us</p>
 

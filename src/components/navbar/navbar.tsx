@@ -8,9 +8,9 @@ const Navbar = () => {
 	const toggleHandler = () => setToggleNav(prev => !prev)
 
 	return (
-		<header className='mb-[68px]'>
+		<header className={`${styles.paddingX} bg-black z-10`}>
 			<div
-				className={`${styles.flexBetween} w-full h-32 mx-auto max-w-[1240px] z-10 top-0 left-0 max-sm:fixed max-sm:px-8 max-xs:h-24 bg-black`}
+				className={`${styles.flexBetween} w-full h-32 mx-auto max-w-[1440px] z-10 top-0 left-0 max-sm:fixed max-sm:px-8 max-xs:h-24 bg-black`}
 			>
 				{/* Logo  */}
 				<div

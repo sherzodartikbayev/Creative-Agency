@@ -29,3 +29,12 @@ export { default as userLogo } from './testimonial/user-logo.png'
 // Business Section Images
 export { default as img1 } from './business/1.png'
 export { default as img2 } from './business/2.png'
+
+// Footer Section Images
+export { default as footerLogo } from "./logo/footer-logo.svg"
+
+export { default as facebook } from "./footer/facebook.svg"
+export { default as instagram } from "./footer/instagram.svg"
+export { default as linkedin } from "./footer/linkedin.svg"
+export { default as mail } from "./footer/mail.svg"
+export { default as twitter } from "./footer/twitter.svg"

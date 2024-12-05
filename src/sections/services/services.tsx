@@ -4,9 +4,12 @@ import { styles } from '../../utils/style'
 
 const Services = () => {
 	return (
-		<section id='services'>
+		<section
+			id='services'
+			className={`${styles.paddingX}`}
+		>
 			<div
-				className={`${styles.flexBetween} max-md:flex-col w-full mx-auto mb-36 max-w-[1240px]`}
+				className={`${styles.flexBetween} max-md:flex-col w-full mx-auto  max-w-[1440px] pb-36`}
 			>
 				<div className='w-[40%] max-md:w-full max-md:text-center mb-10'>
 					<p className={`${styles.sectionTitle} mb-8`}>Our Services</p>

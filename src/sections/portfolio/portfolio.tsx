@@ -4,8 +4,11 @@ import { styles } from '../../utils/style'
 
 const Portfolio = () => {
 	return (
-		<section id='projects'>
-			<div className='w-full mx-auto mb-36 max-w-[1240px]'>
+		<section
+			id='projects'
+			className={`${styles.paddingX}`}
+		>
+			<div className='w-full mx-auto max-w-[1440px] pb-36'>
 				<div className='text-center mb-12'>
 					{/* Section Title */}
 					<p className={`${styles.sectionTitle} mb-5`}>Our Portfolio</p>
@@ -31,6 +34,7 @@ const Portfolio = () => {
 								src={card.img}
 								alt={card.alt}
 								className='size-full cursor-pointer mb-3'
+								loading='lazy'
 							/>
 							<p className='font-quicksand font-bold text-2xl text-lightWhite text-center absolute left-6 bottom-12'>
 								{card.title}
@@ -38,7 +42,7 @@ const Portfolio = () => {
 						</div>
 					))}
 				</div>
-				<div className="flex justify-center items-center">
+				<div className='flex justify-center items-center'>
 					<Button2 text={'See All Portfolio'} />
 				</div>
 			</div>

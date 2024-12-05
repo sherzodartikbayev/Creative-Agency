@@ -7,16 +7,15 @@ import {
 	Services,
 	Testimonial,
 } from './sections'
-import { styles } from './utils/style'
 
 const App = () => {
 	return (
-		<div className={`${styles.paddingX} bg-black relative`}>
+		<div className='relative'>
 			{/* Navbar */}
 			<Navbar />
 
 			{/* Main */}
-			<main>
+			<main className='bg-black'>
 				<Hero />
 				<About />
 				<Services />

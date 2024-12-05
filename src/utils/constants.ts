@@ -2,10 +2,15 @@ import {
 	card1,
 	card2,
 	card3,
+	facebook,
+	instagram,
+	linkedin,
+	mail,
 	monitorIcon,
 	penToolIcon,
 	settingsIcon,
 	tvIcon,
+	twitter,
 	userLogo,
 } from '../assets'
 
@@ -108,5 +113,63 @@ export const testomonialCard = [
 		userJob: 'Creative Manager',
 		userDescription:
 			"There are many variations passages of Lorem Ipsum majority some by words which don't look.",
+	},
+]
+
+// Footer Section
+export const footerLinks = [
+	{
+		id: 1,
+		title: 'Terms & policies',
+		links: 'Terms of Service, Privacy Policy',
+	},
+	{
+		id: 2,
+		title: 'Company',
+		links: 'Home, About, Us, Contact Us',
+	},
+	{
+		id: 3,
+		title: 'Contact',
+		links: '(+62) 893912392190, agecnycr@gmail.com',
+	},
+	{
+		id: 4,
+		title: 'Location',
+		links:
+			'PT Osiris Real Estate Internasional, Jl. KH. Wahid Hasyim Kel No.10D, Jakarta. Indonesia, team@OsirisRealEstate.com',
+	},
+]
+
+export const footerSocialIcons =  [
+	{
+		id: 1,
+		img: `${facebook}`,
+		alt: "facebook",
+		link: "https://www.facebook.com"
+	},
+	{
+		id: 2,
+		img: `${instagram}`,
+		alt: "instagram",
+		link: "https://www.instagram.com"
+	},
+	{
+		id: 3,
+		img: `${linkedin}`,
+		alt: "linkedin",
+		link: "https://www.linkedin.com"
+	},
+	{
+		id: 4,
+		img: `${mail}`,
+		alt: "mail",
+		link: "https://www.mail.com"
+	},
+	{
+		id: 5,
+		img: `${twitter}`,
+		alt: "twitter",
+		link: "https://www.x.com"
 	},
 ]

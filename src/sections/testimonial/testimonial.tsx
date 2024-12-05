@@ -3,8 +3,8 @@ import { styles } from '../../utils/style'
 
 const Testimonial = () => {
 	return (
-		<section className='mb-36'>
-			<div className='w-full mx-auto mb-56 max-md:mb-20 max-w-[1240px]'>
+		<section className={`${styles.paddingX}`}>
+			<div className='w-full mx-auto max-w-[1440px] pb-48 max-md:pb-20'>
 				<div className='text-center mb-14'>
 					{/* Section Title  */}
 					<p className={`${styles.sectionTitle} mb-5`}>Testimonial</p>
@@ -12,15 +12,15 @@ const Testimonial = () => {
 					<h1 className={`${styles.title}`}>People Talk about us</h1>
 				</div>
 
-				<div
-					className={`${styles.flexCenter} flex-wrap gap-12`}
-				>
+				<div className={`${styles.flexCenter} flex-wrap gap-12`}>
 					{testomonialCard.map(card => (
 						<div
-							className='w-[360px] h-[336px] rounded-2xl pl-10 pr-10 pt-12 bg-darkBlue max-xs:w-[300px] max-xs:h-[300px]'
+							className='w-[350px] h-[336px] rounded-2xl pl-10 pr-10 pt-12 bg-darkBlue max-xs:w-[300px] max-xs:h-[300px]'
 							key={card.id}
 						>
-							<div className={`flex items-center gap-8 mb-6 max-xs:flex-col  max-xs:gap-2`}>
+							<div
+								className={`flex items-center gap-8 mb-6 max-xs:flex-col  max-xs:gap-2`}
+							>
 								<div className='w-[70px] h-[70px] rounded-3xl cursor-pointer'>
 									<img
 										src={card.userLogo}
