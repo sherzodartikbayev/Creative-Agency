@@ -4,7 +4,7 @@ import { styles } from '../../utils/style'
 
 const Portfolio = () => {
 	return (
-		<section id='projects' className='mb-36'>
+		<section id='projects'>
 			<div className='w-full mx-auto mb-36 max-w-[1240px]'>
 				<div className='text-center mb-12'>
 					{/* Section Title */}

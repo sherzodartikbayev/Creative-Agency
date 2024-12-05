@@ -5,9 +5,7 @@ export { default as logo } from './logo/logo.svg'
 export { default as header1 } from './header/1.png'
 export { default as menu } from './header/menu.svg'
 export { default as close } from './header/close.svg'
-export { default as userLogo } from './header/user-logo.png'
 export { default as heroImg } from './header/1.png'
-export { default as star } from './header/star.svg'
 
 // About Section Images
 export { default as aboutImg } from './about/1.png'
@@ -24,3 +22,6 @@ export { default as tvIcon } from './services/tv.svg'
 export { default as card1 } from './portfolio/1.png'
 export { default as card2 } from './portfolio/2.png'
 export { default as card3 } from './portfolio/3.png'
+
+// Testomonials Section Images
+export { default as userLogo } from './testimonial/user-logo.png'
