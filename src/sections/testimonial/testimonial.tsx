@@ -15,7 +15,7 @@ const Testimonial = () => {
 				<div className={`${styles.flexCenter} flex-wrap gap-12`}>
 					{testomonialCard.map(card => (
 						<div
-							className='w-[350px] h-[336px] rounded-2xl pl-10 pr-10 pt-12 bg-darkBlue max-xs:w-[300px] max-xs:h-[300px]'
+							className='w-[350px] h-[336px] rounded-2xl pl-10 pr-10 pt-12 bg-white  dark:bg-darkBlue shadow-black drop-shadow-xl max-xs:w-[300px] max-xs:h-[300px]'
 							key={card.id}
 						>
 							<div
@@ -31,7 +31,7 @@ const Testimonial = () => {
 								</div>
 								<div className='max-xs:text-center'>
 									{/* User Name */}
-									<h1 className='font-quicksand font-semibold text-xl leading-9 text-lightWhite tracking-[1%] cursor-pointer max-xs:text-base'>
+									<h1 className='font-quicksand font-semibold text-xl leading-9 text-primary dark:text-lightWhite tracking-[1%] cursor-pointer max-xs:text-base'>
 										{card.userName}
 									</h1>
 									{/* User Job */}
@@ -41,7 +41,7 @@ const Testimonial = () => {
 								</div>
 							</div>
 							{/* Description */}
-							<p className='font-quicksand text-lg leading-7 tracking-[1%] text-lightWhite max-xs:text-xs max-xs:text-center'>
+							<p className='font-quicksand text-lg leading-7 tracking-[1%] text-black dark:text-lightWhite max-xs:text-xs max-xs:text-center'>
 								{card.userDescription}
 							</p>
 						</div>

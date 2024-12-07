@@ -15,7 +15,7 @@ const App = () => {
 			<Navbar />
 
 			{/* Main */}
-			<main className='bg-black'>
+			<main className='bg-white dark:bg-black'>
 				<Hero />
 				<About />
 				<Services />

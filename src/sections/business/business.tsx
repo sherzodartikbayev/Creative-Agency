@@ -9,12 +9,12 @@ const Business = () => {
 				<div className={`${styles.flexBetween} flex-wrap max-sm:gap-20`}>
 					<div className='w-1/2 max-sm:w-full max-sm:text-center'>
 						{/* Title */}
-						<h1 className='font-nunito font-bold text-[55px] leading-[75px] tracking-[0.3%] text-lightWhite max-sm:text-5xl max-xs:text-3xl'>
+						<h1 className='font-nunito font-bold text-[55px] leading-[75px] tracking-[0.3%] text-black dark:text-lightWhite max-sm:text-5xl max-xs:text-3xl'>
 							Interesting Collaboration With Us?
 						</h1>
 
 						{/* Description  */}
-						<p className='font-quicksand font-normal text-[14px] leading-9 text-gray mb-6'>
+						<p className='font-quicksand font-normal text-xl leading-9 text-gray  dark:text-lightWhite mb-6'>
 							Help you to reach your business goal
 						</p>
 

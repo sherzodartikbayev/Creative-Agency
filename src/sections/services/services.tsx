@@ -1,4 +1,4 @@
-import { arrowRight } from '../../assets'
+import { blueArrowRight } from '../../assets'
 import { servicesCards } from '../../utils/constants'
 import { styles } from '../../utils/style'
 
@@ -24,11 +24,11 @@ const Services = () => {
 
 					<a
 						href='#'
-						className='font-quicksand font-bold text-xl text-lightWhite flex justify-end items-center gap-3 max-md:justify-start max-md:pl-5 max-ss:pl-2 max-xs:text-xs'
+						className='font-quicksand font-bold text-xl text-black dark:text-lightWhite flex justify-end items-center gap-3 max-md:justify-start max-md:pl-5 max-ss:pl-2 max-xs:text-xs'
 					>
 						Read more
 						<img
-							src={arrowRight}
+							src={blueArrowRight}
 							alt='arrow right icon'
 							loading='lazy'
 							className='w-6 h-6 max-xs:w-3 max-xs:h-3'
@@ -40,7 +40,7 @@ const Services = () => {
 					<div className={`${styles.flexCenter} flex-wrap gap-10`}>
 						{servicesCards.map(card => (
 							<div
-								className={`${styles.flexCenter} flex-col w-[262px] h-[269px] rounded-[30px] bg-darkBlue cursor-pointer`}
+								className={`${styles.flexCenter} flex-col w-[262px] h-[269px] rounded-[30px] bg-white dark:bg-darkBlue shadow-black drop-shadow-2xl cursor-pointer`}
 								key={card.id}
 							>
 								<div
@@ -53,7 +53,7 @@ const Services = () => {
 										loading='lazy'
 									/>
 								</div>
-								<p className='font-quicksand font-bold text-2xl leading-8 text-lightWhite text-center max-sm:text-base'>
+								<p className='font-quicksand font-bold text-2xl leading-8 text-black dark:text-lightWhite text-center max-sm:text-base'>
 									{card.title}
 								</p>
 							</div>

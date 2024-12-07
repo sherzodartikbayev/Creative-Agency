@@ -17,7 +17,7 @@ const Portfolio = () => {
 					<h1 className={`${styles.title} mb-7`}>What do we do</h1>
 
 					{/* Description */}
-					<p className={`${styles.desc} text-lightWhite`}>
+					<p className={`${styles.desc} text-gray dark:text-lightWhite`}>
 						all projects that we have already done , proven can help to use more{' '}
 						<br />
 						comfortable, then can used by client from our business

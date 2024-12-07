@@ -28,7 +28,7 @@ const footer = () => {
 							{item.links.split(',').map(text => (
 								<a
 									href='#'
-									className='font-quicksand font-light text-lg leading-6 text-lightWhite flex mb-3 max-xs:text-lg'
+									className='font-quicksand font-light text-lg leading-6 text-lightWhite flex mb-3 max-xs:text-lg hover:text-primary duration-500'
 								>
 									{text}
 								</a>
@@ -43,7 +43,7 @@ const footer = () => {
 				>
 					{footerSocialIcons.map(social => (
 						<div
-							className={`${styles.flexCenter} w-10 h-10 rounded-full bg-lightWhite cursor-pointer`}
+							className={`${styles.flexCenter} w-10 h-10 rounded-full bg-lightWhite cursor-pointer hover:bg-primary duration-500`}
 							key={social.id}
 						>
 							<a href={social.link} target='_blank'>

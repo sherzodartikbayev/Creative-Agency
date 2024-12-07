@@ -6,13 +6,15 @@ export { default as header1 } from './header/1.png'
 export { default as menu } from './header/menu.svg'
 export { default as close } from './header/close.svg'
 export { default as heroImg } from './header/1.png'
+export { default as darkMode } from './header/dark-mode.png'
+export { default as lightMode } from './header/light-mode.png'
 
 // About Section Images
 export { default as aboutImg } from './about/1.png'
 export { default as playCircle } from './about/play-circle.svg'
 
 // Services Section Images
-export { default as arrowRight } from './services/arrow-right 1.svg'
+export { default as blueArrowRight } from './services/blue-arrow-right.svg'
 export { default as monitorIcon } from './services/monitor.svg'
 export { default as settingsIcon } from './services/settings.svg'
 export { default as penToolIcon } from './services/pen-tool.svg'
