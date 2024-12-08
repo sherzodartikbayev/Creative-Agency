@@ -2,7 +2,7 @@
 
 🌟 A modern and responsive **Creative Agency Website** designed to showcase services with style and functionality.
 
-![Dark Mode Demo](https://via.placeholder.com/1000x500.png?text=Dark+Mode+Enabled)
+![creative-agency](https://github.com/user-attachments/assets/5cea9a77-6430-4160-969a-3bcc2c8cd763)
 
 ---
 
