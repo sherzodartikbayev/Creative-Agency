@@ -29,12 +29,15 @@ Follow these steps to get started with the project:
    git clone https://github.com/your-username/creative-agency.git
 
 2. Navigate to the project folder:
+    ```bash
    cd creative-agency
    
-3. Install dependencies:
+4. Install dependencies:
+    ```bash
    npm install
 
-4. Run the development server:
+6. Run the development server:
+   ```bash
    npm run dev
 
 
@@ -57,22 +60,25 @@ Follow these steps to get started with the project:
 1. Fork this repository.
 
 2. Create a new branch for your changes:
+   ```bash
    git checkout -b feature/amazing-feature
 
-3. Commit your changes:
+4. Commit your changes:
+   ```bash
    git commit -m "Add amazing feature"
 
-4. Push to your branch:
+6. Push to your branch:
+   ```bash
    git push origin feature/amazing-feature
 
-5. Submit a pull request. 🙌
+8. Submit a pull request. 🙌
 
 
 
 👨‍💻 Author
 Sherzod Artikbayev🌟
 
-• GitHub: @sherzodartikbayev
+• GitHub: https://github.com/sherzodartikbayev
 • Email: @sherzadartikbayev@gmail.com
 
 
